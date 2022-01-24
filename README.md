@@ -6,19 +6,25 @@ npm init -y
 
 npm install next react react-dom
 
+```
 "scripts": {
 "dev": "next dev",
 "build": "next build",
 "start": "next start",
 "lint": "next lint"
 }
+```
 
 na raiz do projeto crie uma pasta page , e dentor desta pasta crie um arquivo index.js
 cole este código dentro do arquivo index.js
 
 ```
 function HomePage() {
-  return <div> 🚀 Fala pessoAll </div>;
+  return (
+    <div>
+      🚀 Fala pessoAll
+    </div>
+  );
 }
 ```
 
@@ -29,3 +35,7 @@ npm run dev
 http://localhost:3000/
 
 npm install @skynexui/components
+
+🌎 https://aluracord-diogomalfatti.vercel.app/
+
+<img>
