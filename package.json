@@ -1,0 +1,30 @@
+{
+  "name": "aluracord",
+  "version": "1.0.0",
+  "description": "Projeto realizado na Imersão React 4 da Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoMalfatti/aluracord.git"
+  },
+  "keywords": [],
+  "author": "Diogo Malfatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoMalfatti/aluracord/issues"
+  },
+  "homepage": "https://github.com/DiogoMalfatti/aluracord#readme",
+  "dependencies": {
+    "@skynexui/components": "^1.23.2",
+    "next": "^12.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
