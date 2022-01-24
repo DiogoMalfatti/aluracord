@@ -38,4 +38,4 @@ npm install @skynexui/components
 
 🌎 https://aluracord-diogomalfatti.vercel.app/
 
-<img>
+<img src="https://raw.githubusercontent.com/DiogoMalfatti/aluracord/main/public/images_readme/aluracord1280.png" />
