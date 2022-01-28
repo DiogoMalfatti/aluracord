@@ -3,11 +3,10 @@ import appConfig from "../config.json";
 import { Box, Text, TextField, Image, Button } from "@skynexui/components";
 import { createClient } from "@supabase/supabase-js";
 
-const SUPABASE_ANON_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTY0MzI4MjM2MywiZXhwIjoxOTU4ODU4MzYzfQ.0KquNkrL6xF72TWoASIO2iTj5LSPK0FCkXkvq-bFj3I";
-const SUPABASE_URL = "https://blcjoecqrkjffvtgdecd.supabase.co";
+const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_KEY;
+const SUPABASE_URL = `https://${process.env.NEXT_PUBLIC_SUPABASE_URL_KEY}.supabase.co`;
 
-const supabaseClient = createClient(SUPABASE_ANON_KEY, SUPABASE_URL);
+const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 export default function ChatPage() {
   // Sua lógica vai aqui
